@@ -138,6 +138,7 @@ Run the Python script.
 
 Check if the message appears in the HiveMQ Web Client.
 ## PROGRAM
+~~~
 [import time
 import paho.mqtt.client as mqtt
 broker = "32b4b6a8f9c04ca2b9cd4a7a10ce1b3a.s1.eu.hivemq.cloud"
@@ -167,12 +168,8 @@ time.sleep(0.2)
 client.loop_stop()
 client.disconnect()
 print(f"Message '{message}' published to topic '{topic}' (qos=1 retain=True)")
-
-
-
-
-
 ]
+~~~
 
 ### OUTPUT SCREENSHOTS
 <img width="1716" height="917" alt="ChatGPT Image Aug 31, 2026, 02_35_14 PM" src="https://github.com/user-attachments/assets/50669200-d337-4a8c-865a-67e6d55dce70" />
